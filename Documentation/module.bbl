@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+
+\bibitem{simon2013too}
+Phil Simon,
+\newblock {\em Too Big to Ignore: The Business Case for Big Data},
+\newblock John Wiley \& Sons, 2013.
+
+\bibitem{mitchell1997machine}
+Tom~M Mitchell,
+\newblock ``Machine learning. 1997,''
+\newblock {\em Burr Ridge, IL: McGraw Hill}, vol. 45, 1997.
+
+\bibitem{stanford}
+Andrew Ng,
+\newblock ``Introduction, what is machine learning,''
+  "\url{http://openclassroom.stanford.edu/MainFolder/VideoPage.php?course=MachineLearning&video=01.2-Introduction-WhatIsMachineLearning&speed=100"}.
+
+\bibitem{murphy2012machine}
+Kevin~P Murphy,
+\newblock {\em Machine learning: a probabilistic perspective},
+\newblock MIT Press, 2012.
+
+\bibitem{manning2008introduction}
+Christopher~D Manning, Prabhakar Raghavan, and Hinrich Sch{\"u}tze,
+\newblock {\em Introduction to information retrieval}, vol.~1,
+\newblock Cambridge university press Cambridge, 2008.
+
+\bibitem{wikiconceptualclustering}
+``Conceptual clustering,''
+  "\url{http://en.wikipedia.org/wiki/Conceptual_clustering"}.
+
+\bibitem{jain1999data}
+Anil~K Jain, M~Narasimha Murty, and Patrick~J Flynn,
+\newblock ``Data clustering: a review,''
+\newblock {\em ACM computing surveys (CSUR)}, vol. 31, no. 3, pp. 264--323,
+  1999.
+
+\bibitem{fisher1987knowledge}
+Douglas~H Fisher,
+\newblock ``Knowledge acquisition via incremental conceptual clustering,''
+\newblock {\em Machine learning}, vol. 2, no. 2, pp. 139--172, 1987.
+
+\bibitem{gluck1985information}
+M~Gluck,
+\newblock ``Information, uncertainty and the utility of categories,''
+\newblock in {\em Proc. of the Seventh Annual Conf. on Cognitive Science
+  Society}, 1985, pp. 283--287.
+
+\bibitem{luger2011artificial}
+G.F. Luger,
+\newblock {\em Artificial Intelligence: Structures and Strategies for Complex
+  Problem Solving},
+\newblock Pearson Education, 2011.
+
+\bibitem{newyork}
+``Classification map,''
+  "\url{http://ci-cmap.oit.umn.edu/rid=1KQ0B0XBH-3J1L9H-P6W/Animal%20Classification.cmap"}.
+
+\bibitem{fisher1995optimization}
+Douglas Fisher,
+\newblock ``Optimization and simplification of hierarchical clusterings.,''
+\newblock in {\em KDD}, 1995, pp. 118--123.
+
+\bibitem{gennari1989models}
+John~H Gennari, Pat Langley, and Doug Fisher,
+\newblock ``Models of incremental concept formation,''
+\newblock {\em Artificial intelligence}, vol. 40, no. 1, pp. 11--61, 1989.
+
+\end{thebibliography}

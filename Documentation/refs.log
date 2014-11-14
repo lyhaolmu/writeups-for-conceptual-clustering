@@ -1,0 +1,18 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.3.13)  5 MAY 2014 13:52
+entering extended mode
+**G:/LMU/TAILS_LMU/4.Conceptual*Clustering*Module-20140-03-03/conceptual_cluste
+ring20140421_modifying/Documentation/refs.bib
+
+("G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_cluste
+ring20140421_modifying/Documentation/refs.bib"
+! Undefined control sequence.
+l.27 howpublished = {"\url
+                          {http://openclassroom.stanford.edu/MainFolder/Vide...
+
+? 
+! Emergency stop.
+l.27 howpublished = {"\url
+                          {http://openclassroom.stanford.edu/MainFolder/Vide...
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

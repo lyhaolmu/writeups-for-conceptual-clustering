@@ -1,0 +1,114 @@
+%
+%7-experiments.tex
+%
+%  LaTeX source file for section 7 Experiments for the Conceptual Clustering lab module of the TAILS project.
+
+\section{Experiments}
+The purpose of this section is to introduce students to the conceptual clustering simulation tool, clustering algorithms, feature vectors, probability, and the effect of input ordering on the learning that takes place when an application is trained on a set of data. Students with an understanding of Bayes Theorem will be able to study the category utility function used to rank the potential clusters each time a training vector is added to the set.
+
+\subsection{Experiment 1}
+\paragraph{Observe the effect of input ordering on COBWEB}
+The first exercise provides students the opportunity to observe first-hand effect of input ordering on the taxonomy constructed by the COBWEB conceptual clustering algorithm\cite{fisher1987knowledge,fisher1995optimization,gennari1989models}. 
+\subparagraph{Objective} 
+This exercise demonstrates via experimentation the value of random ordering of input to a learning algorithm. Students use an implementation of the COBWEB conceptual clustering algorithm to visualize the taxonomy of clusters created for a set of feature vectors given as input. The internal or summary nodes of the resulting tree are displayed as objects that reflect the average color and size of the objects in the subtree rooted at the node and the most frequently occurring shape in the subtree.
+\subparagraph{Experiment Description} Start the Conceptual Clustering simulation tool and use the default attributes. Then input the following objects one by one in the order shown in Table \ref{tab:exp1seq1} and Table \ref{tab:exp1seq2} and observe the way the tree generated. Understand the concept label of parent nodes in each tree.
+
+\begin{table}[!ht]
+ \ttabbox{\caption{Experiment1: Input Sequence 1}}
+ {
+ \centering
+ \begin{tabular}{l l l l l l l l}\hline
+ \textbf{} & \textbf{shape} & \textbf{size} & \textbf{color}   & \textbf{} & \textbf{shape} & \textbf{size} & \textbf{color}\\\hline
+ \textbf{1} & \textbf{square} & \textbf{large} & \textbf{blue}   & \textbf{6} & \textbf{circle} & \textbf{large} & \textbf{blue}\\
+ \textbf{2} & \textbf{square} & \textbf{large} & \textbf{yellow} & \textbf{7} & \textbf{circle} & \textbf{large} & \textbf{yellow}\\
+ \textbf{3} & \textbf{square} & \textbf{large} & \textbf{red}    & \textbf{8} & \textbf{circle} & \textbf{large} & \textbf{red}\\
+ \textbf{4} & \textbf{square} & \textbf{large} & \textbf{orange} & \textbf{9} & \textbf{circle} & \textbf{large} & \textbf{orange}\\
+ \textbf{5} & \textbf{square} & \textbf{large} & \textbf{green}  & \textbf{10} & \textbf{circle} & \textbf{large} & \textbf{green}\\
+ \hline
+ \end{tabular}
+ \label{tab:exp1seq1}}
+ \end{table}
+ 
+\begin{table}[!ht]
+ \ttabbox{\caption{Experiment 1: Input Sequence 2}}
+ {
+ \centering
+ \begin{tabular}{l l l l l l l l}\hline
+ \textbf{} & \textbf{shape} & \textbf{size} & \textbf{color}   & \textbf{} & \textbf{shape} & \textbf{size} & \textbf{color}\\\hline
+ \textbf{1} & \textbf{square} & \textbf{large} & \textbf{blue}   & \textbf{6}& \textbf{circle} & \textbf{large} & \textbf{red}\\
+ \textbf{2} & \textbf{circle} & \textbf{large} & \textbf{blue}   & \textbf{7}& \textbf{square} & \textbf{large} & \textbf{orange} \\
+ \textbf{3} & \textbf{square} & \textbf{large} & \textbf{yellow} & \textbf{8}& \textbf{circle} & \textbf{large} & \textbf{orange} \\
+ \textbf{4} & \textbf{circle} & \textbf{large} & \textbf{yellow} & \textbf{9}& \textbf{square} & \textbf{large} & \textbf{green} \\
+ \textbf{5} &\textbf{square} & \textbf{large}  & \textbf{red}    &\textbf{10}& \textbf{circle} & \textbf{large} & \textbf{green}\\
+ \hline
+ \end{tabular}
+ \label{tab:exp1seq2}}
+ \end{table}
+ 
+ \subsection{Experiment 2}
+ \paragraph{Think of any possible application of conceptual clustering algorithm COBWEB in real life} This exercise provides students the opportunity to think seriously about COBWEB algorithm and understand relevant concepts. 
+ \subparagraph{Objective} Experiment 2 allows students to demonstrate a deep understanding of the conceptual clustering algorithm COBWEB by describing an example in details. Students are expected to be able to tell a clustering problem from a classification problem, and understands concepts of attribute and attribute values by representing objects in their example using feature vectors.
+ \subparagraph{Experiment Description} Think of any possible application of conceptual clustering algorithm COBWEB in our life. Try to describe your example in the following aspects: 1)Why it is a clustering problem instead of a classification problem; 2)What might be the \emph{concept label} for a cluster in your example; 3)What might happen when a new item is added in your example, referring to the four operations of COBWEB.
+ 
+ Then try to write down some possible attributes and attribute values of your example and keep it in a text file. Load your attributes and values through the text box in the first interface. Be sure that the attribute should be recorded in the first line and ended with a \lq\lq{\#}\rq\rq. The next line will be the values for the first attribute and so on so forth. The attributes and attribute values of a possible example about one kind of machines are shown here.\\
+ \emph{type,rate,weight,pricerange\#\\
+ modelbased,conceptbased,experiencebased\#\\
+ excellent,good,average,unknown\#\\
+ heavy,light\#\\
+ high,low\#\\
+ verysmall,small,medium,large,extralarge\#\\}
+ 
+Last, try to write down one possible order for the items in your example and keep it in a text file. Load your sequence of those items through the text box in the second interface. Be sure that each item should be ended with a \lq\lq{!}\rq\rq. A possible input sequence for the example above is shown below:\\
+\emph{modelbased,excellent,light,high,verysmall!\\
+modelbased,good,light,high,verysmall!\\
+modelbased,unknow,heavy,low,medium!\\
+conceptbased,average,heavy,low,large!\\
+conceptbased,average,heavy,high,verysmall!\\
+conceptbased,excellent,heavy,high,verysmall!\\
+experiencebased,good,light,low,medium!\\
+experiencebased,unknown,light,high,small!\\}
+ 
+ \subsection{Experiment 3}
+ \paragraph{Calculate the Category Utility for the following example} This exercise is designed for those students who have a basic knowledge of probability, conditional probability and Bayes Theorem. 
+ \subparagraph{Objective} This exercise demonstrates the ability to understand the evaluation function Category Utility in COBWEB algorithm. Students are expected to have a better idea of Category Utility by doing the calculations. 
+ \subparagraph{Experiment Description} There are two classes, denoted as $C_1$ and $C_2$. Objects contained in $C_1$ and $C_2$ are shown in Table\ref{tab:experiment2}. There are three attributes \emph{color}, \emph{shape} and \emph{size} with seven attribute values which are: $A_1=\{\text{color}|V_{11}=\text{Green},V_{12}=\text{Red}, V_{13}=\text{Blue}\}$
+ $A_2=\{\text{shape}|V_{21}=\text{Ball}, V_{22}=\text{Square}\}$
+ $A_3=\{\text{size}|V_{21}=\text{Small}, V_{22}=\text{Large}\}$. Try to get the value of Category Utility for the current partition.
+ 
+ Hints: You might need to calculate the probability for each class, the expected number of attribute values that can be correctly guessed given each cluster and the expected number of attribute values that can be correctly guessed without any category knowledge, and then substitute those values in the CU function.
+ \begin{equation*}
+ \label{eq:cu}
+ %\text{Category Utility}
+ CU=\frac{\sum_{k=1}^{n}P(C_k)\left[\sum_i \sum_jP(A_i=V_{ij}\left|C_k\right.)^2-\sum_i \sum_jP(A_i=V_{ij})^2\right]}{n}
+ \end{equation*} 
+ \begin{table}[!ht]
+ \ttabbox{\caption{Experiment3: Table of Classes}}{
+ \centering
+ \begin{minipage}{0.45\textwidth}
+ \begin{tabular}{l l l}\hline
+ \textbf{ } & \textbf{Class 1} & \textbf{ }\\
+ \textbf{A1} & \textbf{A2} &  \textbf{A3}\\\hline
+ Green & Ball & Small \\
+ Green & Ball & Large \\
+ Red & Ball & Small \\\hline
+ \end{tabular}
+ \end{minipage}
+ \hfil
+ \begin{minipage}{0.45\textwidth}
+ \begin{tabular}{l l l}\hline
+ \textbf{ } & \textbf{Class 2} & \textbf{ }\\
+ \textbf{A1} & \textbf{A2} & \textbf{A3}\\\hline
+ Green & Square & Large \\
+ Blue & Ball & Large\\
+ Blue & Square & Large\\\hline 
+ \end{tabular}
+ \label{tab:experiment2}
+ \end{minipage}}
+ \end{table}
+
+\subsection{Experiment 4}
+\paragraph{Modify the codes in \emph{cluster.js}} The fourth experiment allows students extend the code to a small extent. It's easy to see the difference directly from the second interface. 
+\subparagraph{Objective} This exercise focuses on demonstrating knowledge of both JavaScript and the structure of the COBWEB module. It is a relative easy code exercise for those students who have a basic knowledge of programming. 
+\subparagraph{Experiment Description} The current edition only allows undoing four steps at most. Check the function \emph{undoLastStep()} in the \emph{cluster.js} and find out what variables are used to implement undoing function. Modify the codes and make it enable to undo five steps. Please remember to define anything that isn't there in the file \emph{cluster.js}.
+
+

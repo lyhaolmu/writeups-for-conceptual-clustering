@@ -1,0 +1,311 @@
+%
+% 1- The Idea.tex
+%
+% This LaTeX source file is for section 1- The Idea for
+% the Conceptual Clustering Search Algorithm lab module 
+% for the TAILS project under Dr. Stephanie August.
+%
+
+\section{The Idea}
+\subsection{Purpose}
+The purpose of this lab is to familiarize the experimenter with the COBWEB
+conceptual clustering algorithm:
+
+
+This lab will introduce the principle of dynamic programming in terms of the
+COBWEB conceptual clustering algorithm as well as introduce a few applications
+of this algorithm to real-world situations. The experimenter will be provided
+with a drawing platform which takes in different object attributes (input
+created by the experimenter) and produces a visual representation of the tree
+that results from the COBWEB clustering algorithm. 
+
+% I don't really know what we're going to have the experimenter do yet.
+% While performing experiments
+% in this lab module, you, the experimenter, will learn how to make slight
+% modifications to the basic search algorithm to progress between the different
+% search types.
+
+\subsection{Background}
+\subsubsection{BASIC Search}
+Conceptual clustering algorithms are generally used in situations where we may
+not have all the data when we want to start organizing our findings. The main
+purpose of the conceptual clustering algorithm is to allow for data elements to
+be organized in relation to each other as more data becomes available. The
+COBWEB conceptual clustering algorithm updates the tree (relation of all
+existing data elements) in accordance with new data that comes in.
+
+The tree this algorithm creates is devised in such a way that any
+\bold{frontier node} is a data element and any \bold{interior node} is a class
+which is a general representation of all of its children.
+% Add picture of classes versus data elements in a tree.
+
+The simplest way of thinking of the COBWEB conceptual clustering algorithm is in
+terms of a small child cleaning up their toys (assuming they're only paying
+attention to the toys they have already organized). Say a child pics up a
+firetruck first, so they put the firetruck in its own bin, simply because no
+bin is in use yet. Then they pick up a bouncy ball. This toy doesn't seem to
+relate to the firetruck at all, so the child decides to put the bouncy ball in a
+separate bin from the firetruck. The next toy the child picks up is a racecar.
+So at this point the child can choose to put the racecar in its own bin, or in
+the same bin as the firetruck since the racecar and firetruck have a lot in
+common. The child decides to put the racecar in the same bin as the firetruck
+because they have enough similarities to share a bin. This is the general
+concept of the COBWEB conceptual clustering algorithm. As data is brought in,
+decisions are made.
+
+The first step of the COBWEB conceptual clustering algorithm is to determine the
+best spot for the new data element in the existing tree. That is, to determine
+which class the new data element fits into best. But one thing to note is that
+there are situations when the best option is to treat the new data element as
+its own entity and place it directly under the root node, rather than add it to
+an existing class.
+
+But once a data element has been added to a class, there may be sub-classes into
+which it might fit better than the class it is currently assigned to. So in
+order to determine the best place for a new data element, the algorithm could
+possibly have to traverse all the way down to a class consisting of \emph{only}
+frontier nodes.
+
+The next question is, how do we know which spot is "best" for a new data
+element? This is determined by the \bold{categorical utility} of adding the new
+data element to a certain spot in the tree. The categorical utility is
+determined by the ability to guess the attributes of an object in a certain
+class. That is, if a class has 8 green balls and 2 red balls and a different
+class has 4 green squares and 7 blue squares and the new data element is a blue
+ball, the new data element will be placed in the second class with all of the
+squares. This seems odd, but the equation for categoical utility makes things
+clearer:
+% Check the above example
+Categorical Utility = 
+
+
+
+
+
+
+
+
+
+
+It is helpful to think of basic search and tree traversal as one and the same 
+thing, as the discovery of a route from your original state to your desired 
+state.  ``States'' can be anything from different cities on a map to different 
+temperatures in your room, but if you take all of the possible states and 
+connect the ones that are \emph{neighboring}. In order for two states to be 
+neighboring, there has to be some possible way to get directly from one state 
+to the other; in other words, have a direct way of going from one state to the 
+other without travelling through any other states. Once all of these possible
+combinations of neighboring states are worked out, you will have produced all 
+of the nodes and edges needed for a tree that you can then traverse.
+
+An example of neighboring nodes would be something like travelling from one 
+city to another by plane. The edges would be the flights and the nodes would be 
+the different cities. If there are flights from San Diego to Houston and then 
+on to New York City, San Diego would be a neighboring state to Dallas, but not 
+to New York City. But if a new flight were created that went straight from San 
+Diego to New York City, then San Diego would now be considered a neighboring 
+state to New York City.
+% Maybe include a simple picture of this?
+
+Different variants of basic search can be used depending
+upon the type of problem and how much one knows about the search space within
+which the basic search algorithm is searching.  We can broadly categorize the
+basic search algorithms as either uninformed, or \emph{blind}, search 
+algorithms or informed, or \emph{heuristic}, search algorithms.
+% Should we define search space off to the side?
+
+One common example of the basic search algorithms is in route-finding
+problems.  This lab module follows a route-finding example as we create an
+agent that discovers paths for our airline, Tails Air, Inc.
+
+\subsubsection{Airline Routes: Tails Air, Inc.}
+Airlines have routes that fly between certain cities, and to get from one
+city to another the airline will often have to find routes that travel through
+other intermediate cities.  In this lab module we will explore Tails Air, Inc., 
+an airline with terminals in eight cities across the United States:
+
+\begin{itemize}\itemsep-4pt
+    \item Los Angeles, CA
+    \item Santa Fe, NM
+    \item Denver, CO
+    \item Dallas, TX
+    \item Lincoln, NE
+    \item Nashville, TN
+    \item Chicago, IL
+    \item New York, NY
+\end{itemize}
+
+% US Routes graphic by Andrew Won
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=300pt]{../images/us_routes.jpg}
+    \caption{Finding a Route}
+\end{figure}
+
+\subsubsection{Route Finding: Uninformed / Blind Search}
+An uninformed, or blind, search algorithm knows nothing of the search space and
+discovers everything as it traverses each path.  Patrick Henry Winston said
+it succinctly, ``All $[$the search algorithm knows$]$ is where to start and
+what the goal is'' \cite{winston1992}.  Let us look into each of our three
+uninformed algorithms in more detail.
+
+\subsubsection{Depth-First Search}
+% US Routes graphic by Andrew Won
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=300pt]{../images/us_routes.jpg}
+    \caption{Finding a Route: Depth-First Search}
+\end{figure}
+
+A depth-first search chooses the first path available and traverses that path
+until it either reaches its goal or cannot go any further.  This is kind of like
+trying to find an airline route from Los Angeles, CA to New York, NY and only
+taking the South-most route each time through.  Then if you weren't able to
+reach your goal on your first try you go back to the last time you chose a
+South-most route and try taking the next South-most route instead.  You
+continue to do this until you reach your goal.  If we apply a depth-first search
+to our airline map in \emph{figure 1a}, as illustrated in \emph{figure 2}, we 
+can see that a depth-first search won't succeed on its first try in this 
+example.  A depth-first search can be very inefficient if the search space has 
+very long routes that may not lead to our desired goal.  Take for example the 
+use of a depth-first search while preparing for a date in \emph{figure 3}.  An 
+alternative that works better in such cases is breadth-first search (which we 
+will discuss later on).
+
+An alternative to depth-first search is a depth-limited
+search. \cite{russell2003}  A depth-limited search works identically to a
+depht-first search, but as an added element it; restricts how far down any given
+path the search agent will traverse before giving up on a path.  This approach
+is useful if you, or your agent, are fairly confident that your goal is not very
+far down any given path.  This approach solves a traditional problem in
+depth-first search where you can get lost in a really long path that does not
+lead to your desired state.
+
+% Depth-First Search pre-date comic by XKCD
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=220pt]{../images/dfs.jpg}
+    \caption{DFS $[$http://xkcd.com/761/$]$}
+\end{figure}
+
+\subsubsection{Breadth-First Search}
+A breadth-first search takes one step towards every neighboring path or node
+from the original state, or root node, rather than following any one path for
+very long.  As a result, a breadth-first search does not get as deep as quickly
+as an alternative basic search would, but it is very thorough and always
+guarantees the best possible route.  Breadth-first search can often take the
+longest amount of time and runs the risk of quickly becoming unmanageable in
+size.  Breadth-first is useful if there are many paths that reach the goal and
+you are looking for the most efficient path.  Breadth-first search is also
+useful if there are many different paths the agent can take and you are
+confident that a goal is not too deep into at least one of the paths.
+
+\subsubsection{Non-Deterministic Search}
+Non-deterministic search introduces non-determinism, or randomness, to the
+uninformed search methods that we've explored.  Non-deterministic search is
+similar to depth-first and breadth-first searches as it blindly traverses paths
+until it reaches a goal state.  The key difference between the other blind
+search algorithms and non-deterministic search is that each time the agent makes
+a decision about where to go next it chooses its next path at random from all
+possible states that it hasn't visited, but knows exists.  This is useful if you
+have absolutely no knowledge about the search space because you avoid checking
+all of the states near your original state, or root node, as breadth-first does,
+and you probably won't get stuck following a single path the way depth-first
+search could.  If we look to our airline routes example with a non-deterministic
+search, each time we visited a city we would add all possible cities we could
+visit to a list, or some data structure, and then randomly choose from that
+list which city to visit next.  One example of how a non-deterministic search
+algorithm might begin can be seen in figure 1d.
+
+Non-deterministic search is still a form of uninformed, or blind search and
+suffers from all of the inefficiencies related, but offers an added layer of 
+adversary foiling.  A depth-first search could perform very poorly if the set of
+states were created in a way so that the depth-first search would purposefully
+traverse all of the incorrect paths first before ever arriving at the correct
+path.  A breadth-first search could perform very poorly if the set of states
+were created in a way so that the only path to the goal state was very far from
+the original state, and there was only one path that led there.  A
+non-deterministic search would successfully foil, or defeat, such adversarial
+sets of states. Juraj Hromkovi\breve{c} calls this a ``method of avoiding the
+worst-case inputs'' \cite{hromkovic2005}.
+
+\subsection{Route Finding: Informed / Heuristic Search}
+An informed, or heuristic, search algorithm assumes that you know something
+about the search space.  Consider again our example airline route finding
+problem.  If, for instance, you had a way of determining exactly how far from
+your desired final destination you were you could use that information to make
+decisions that brought you closest to your goal on each step.  Consider the
+distances mapped in Figure 2a.
+
+\begin{center}
+% Map of lettered points, looks like a finite-state automata
+\includegraphics[width=300pt]{../images/map_fsm.jpg}\\
+Figure 2a: Route Finding Problem
+\cite{winston1992}
+\end{center}
+
+\subsubsection{Hill-Climbing Search}
+A hill-climbing search, like a depth-first search, traverses a single path until
+it either reaches its goal or cannot go any further.  The difference,
+however, is that a hill-climbing search is equipped with some information
+about each state and uses that information to take the ``best'' of all
+possible routes at each state.  Consider, again, if our airline route agent was
+starting in Los Angeles, CA and needed to travel to New York, NY.  But this
+time we are equipped with the distance of each city from New York, NY, as
+listed in figure 2b.  The added knowledge helps the agent make informed
+decisions each time it has to pick a path to travel, so rather than just taking
+the South-most route each time we could make sure that each next state
+brought us as close to our desired city as possible.
+
+The namesake of the hill-climbing search algorithm comes from the idea of
+climbing a hill with a very sensitive altimeter.  With each step towards the
+pinnacle of your hill you could use your altimeter to make sure that each
+following step increased your altitude as much as possible.  The hidden
+assumption, however, is that each state along the algorithm's desired path goes
+further towards its goal than any other node.  This assumption can be quite
+harmful if used with the wrong set of states.  Patrick Henry Winston names three
+potential problems with hill-climbing \cite{winston1992}:
+
+\begin{itemize}\itemsep-4pt
+    \item A foothill problem can occur if there are more than one peak and you
+    are accidentally progressing towards the wrong peak.
+    \item A plateau problem can occur if the area you are searching in is
+    mostly flat and you cannot determine a better path to choose.
+    \item A ridge problem can occur if along your path there are ridges that
+    take you briefly down hill before again ascending towards the peak.  Winston
+    notes that this can be solved by taking additional probing steps in each
+    direction before making a decision about which direction to travel.
+\end{itemize}
+
+While a hill-climbing search algorithm presents problems of its own, use of a
+hill-climbing algorithm when you can safely assume that each state along your
+desired path should move you as close to your desired state as possible can be a
+large improvement over a blind search algorithm.  If Tails Air, Inc. decided to
+start offering westward routes that took passengers across the Pacific Ocean it
+would be useful to use an algorithm like hill-climbing rather than blindly going
+in the wrong direction.
+
+\subsubsection{Best-First Search}
+Best-first search is very similar to hill-climbing in that it uses knowledge
+about distance to the desired state each time it makes a decision.  The key
+difference between hill-climbing and best-first is that hill-climbing picks the
+next state, or node, only from the states, or nodes, directly adjacent to the
+current state.  As a result, hill-climbing search can effectively traverse a
+single path even if it eventually leads in a wrong direcion.  Best-first search,
+on the other hand, chooses its next state from all possible states that it knows
+exists.  Like non-deterministic search, best-first search keeps a list, or some
+data structure, of states it knows exists, then each time it has to take another
+step it compares all possible states to make sure it is getting closer to the
+desired state and never turning in the wrong direction.
+
+\subsubsection{Beam Search}
+Beam search is like a combination of hill-climbing and breadth-first searches in
+that it uses knowledge about distance to desired state to develop a set of
+paths, resembling a flashlight beam, to travel.  The search limits the
+initial paths that it will traverse, then uses the limited set of paths to
+conduct a search very similar to breadth-first search.  The example in Figure 2b
+shows how the beam search might act for our Tails Air routes.  Unfortunately the
+beam search doesn't provide us much help because our routes all fall within the
+beam, but if we imagine again that our airline added westward routes that
+travelled across the Pacific it would be beneficial to omit those routes form
+our breadth-first search.

@@ -1,0 +1,124 @@
+%
+%5-implementation-specific-HINTs.tex
+%
+%  LaTeX source file for section 5 Implementation Specific HINTs for the Conceptual Clustering lab module of the TAILS project.
+%
+
+\section{Implementation-Specific Design}
+
+\subsection{The Code}
+This program is built with JavaScript files: \emph{selection.js}, \emph{cluster.js}, \emph{utility.js}, \emph{merging.js}, \emph{draw.js}, \emph{treeFunction.js} and \emph{treeZoomFunctionality.js}. \emph{Cluster.js} is acting as the main script in the whole program. To aid with the implementation, the jQuery library and Raphael library are included as well.
+
+\paragraph{index.html}:
+
+This file forms the first interface and calls \emph{selection.js}.
+
+\paragraph{selection.js}:
+
+This script gets the attributes and attribute values if they are written in the right format. These attributes and values will be kept in the variable  \emph{global\_attributes} and \emph{global\_attribute\_options} defined in the function \emph{getSelection()} and will be used by \emph{cluster.js}.
+
+Function \emph{getSelection()} also makes the radio buttons displayed in the second interface.
+
+\paragraph{tree.html}:
+
+This file forms the second interface and calls each of the JavaScript files for the clustering algorithm and presents a visual display of the classification tree. In the second interface, \emph{cluster.js} acts as the main function.
+
+
+\paragraph{cluster.js}:
+
+ A collection of functions which take in an object and add it to the tree in the proper location determined by a conceptual clustering algorithm. Once the object is added to the tree, the drawing is updated. \emph{cluster.js} is the script that implements the COBWEB algorithm.
+ 
+ When the radio buttons are selected and \lq\lq{Add}\rq\rq or \lq\lq{Add Multiple}\rq\rq button is clicked, the program will go to the function \emph{addObject()}.
+ 
+ When any of the three buttons that adds random object is clicked, the program will go to the function \emph{addRandomObject()}.
+ 
+ When objects are inputted through the text and \lq\lq{Load Vector Values}\rq\rq button is clicked, the program will go to the function \emph{addMultipleObjectsFromText()}.
+ 
+ When the \lq\lq{Undo Last Action}\rq\rq button is clicked, the program will go to the function \emph{undoLastStep()}.
+
+All of the function \emph{addObject()}, \emph{addRandomObject()}, and \emph{addMultipleObjectsFromText()} calls the function \emph{addToTree()}.
+ 
+\emph{addToTree()} calls \emph{addToBestNode()} if the tree is not empty; otherwise, it calls the function \emph{addObjectToClass()}.
+ 
+\emph{addToBestNode()} is the function that implements the COBWEB algorithm. It finds the best place to put the new node in the tree depending on its categorical utility that is derived from the function \emph{getMaxUtilityAndIndexOfChildren()} in the file \emph{utility.js}. It also makes sure that if we're adding the object to a terminal node, to turn that node into a class with the two terminal nodes as its children. Once it is determined where the object should be placed, each attribute of the object is parsed through and added to the root node's attribute counts. It calls \emph{addObjectToClass()}.
+ 
+Variable \emph{loopcheck} makes sure we're not in an infinite loop, that is trying to merge or split infinitely many times. Our stopping point for the infinite loop is trying to merge or split a full two cycles.
+
+\emph{addObjectToClass()} physically adds the new object to its parent class and the attribute counts for that class are updated. It calls the function \emph{incrementOrAddAttributeToClass()}.
+ 
+\emph{incrementOrAddAttributeToClass()} increments each attribute in the class by one. If the attribute doesn't exist in that class yet, it creates it.
+
+\emph{getClusteredTree()} returns the handle on the root of the tree after the program executes the above functions and knows where to put the new object. \emph{getClusteredTree()} will be used by the function \emph{draw()} in the file \emph{draw.js}.
+
+\paragraph{utility.js}:
+
+This script generates the categorical utility of adding a new object to the tree in relation to a specific node. The equation it uses to generate the categorical utility is show in Page 5.
+
+\emph{getMaxUtilityAndIndexOfChildren()} acts as the main function in the \emph{utility.js}. It creates an object that contains the two classes with the best categorical utilities. Then it decides if it is best to put the new object in an already existing class, merge two classes, or to make it its own class. It transmits the variable \emph{maxIndex} and \emph{maxUtil(utility)} to the function \emph{addToBestNode()} in the file \emph{cluster.js}. It calls \emph{getCategoricalUtility()} and \emph{getCategoricalUtilityOfMerge()}. 
+ 
+\emph{getCategoricalUtility()} finds the expected number of attribute values that can be correctly guessed and adds this number to the predicted number of correctly guessed attribute values that already exist. \emph{getExpectedNumberOfAttributeToGuess()} is called.
+
+\emph{getCategoricalUtilityOfMerge()} returns the categorical utility if the algorithm were to decide to merge the two classes with the highest categorical utilities. It calls \emph{getExpectedGuessForMergedClasses()}.
+
+\emph{getExpectedGuessForMergedClasses()} temporarily adds the object to the hypothetically merged classes to compute the categorical utility of placing the object in this merged class.
+
+\emph{getExpectedNumberOfAttributeToGuess()} returns the number of expected attributes  that would be correctly guessed for the class that is passed in.
+
+\emph{getSplitUtility()} calculates the categorical utility of splitting an already existing class into separate classes.
+
+\paragraph{merging.js}:
+
+\emph{merge()} takes the two objects/classes with the best categorical utility and first checks to see if they have children. If both of them are just terminal nodes, then it parses through their attributes and adds them to a parent node which will now be their parent class. Then it adds the new object to this merged class. If one of them is a class, then it just adds the attributes of the other best object to the class. If they're both classes, it takes all of the children of one class and adds them as children to the other class.
+
+\emph{split()} adds all of the children of a class to the level the parent is at in the tree and then removes the parent class from the tree.
+
+\paragraph{draw.js}:
+
+\emph{draw()} acts as the main function in \emph{draw.js}. It clears the paper if anything is there, then creates the raphael object and draws the tree. \emph{draw()} gets the updated tree from the function \emph{getClusteredTree()} in the \emph{cluster.js} file. It calls the function \emph{traverseTreeAndAddShape()} in the file \emph{treeFunction.js} which takes in a tree and traverses that tree from the root down.
+
+\emph{drawShape()} and \emph{drawLine()} are acting as the sub-main functions in file \emph{draw.js}. \emph{drawShape()} calls \emph{findAverageColor()}, \emph{findDominantShape()}, \emph{findDominantSize()} and \emph{drawRepresenataion()}. 
+
+\emph{drawLine()} creates a line between the new node and its parent node.
+
+\emph{drawRepresenataion} calls  \emph{drawCircle()}, \emph{drawRectangle()},  \emph{drawTriangle()} and  \emph{drawSquare()}. These four functions create a corresponding shape at a specific spot on the canvas.
+    
+\paragraph{treeFunctions.js}:
+
+\emph{traverseTreeAndAddShape()} first checks if the root node exists, if it doesn't then it creates the root node as well as the canvas on which the tree will exist. If the root node exists, it finds the placement of each of the child objects of the root node as well as drawing a line between each object and its parent node. 
+
+\paragraph{treeZoomFunctionality.js}:
+
+This script fulfills the zoom function in the second interface.
+    
+\subsection{COBWEB Algorithm}
+    The COBWEB Algorithm is:
+    \begin{itemize}\itemsep-3pt
+    \item 
+    Cobweb( Node, Instance)\\
+    begin\\
+    \item if Node is a leaf then begin\\
+    		\begin{itemize}\itemsep-3pt
+           	\item create two children of Node, L1 and L2;\\
+           	\item set the probabilities of L1 to those of Node;\\
+          	\item initialize the probabilities for L2 to those of instance;\\
+           	\item add instance of Node, updating Node’s probabilities;\\
+            end;
+            \end{itemize}
+    \item  else if Node is not a leaf\\   
+      add Instance to Node, updating Node’s probabilities;
+      for each child, C, of Node, compute the category utility of the clustering achieved by placing instance in C;   
+      \begin{itemize}\itemsep-3pt
+      \item let S1 be the score for the best categorization, C1;\\
+      \item let S2 be the score for the second best categorization, C2;\\
+      \item let S3 be the score for placing instance in a new category;\\
+      \item let S4 be the score for merging C1 and C2 into one category;\\
+      \item let S5 be the score for splitting C1(replacing it with its child categories)\\
+      end;
+      \end{itemize}
+      
+    \item if S1 is the best score, then cobweb(C1, Instance)\\
+    \item else if S3 is the best score, then initialize the new category’s probabilities to those of instance\\
+    \item else if S4 is the best score, then cobweb (Cm, Instance), where Cm is the result of merging C1 and C2;\\
+    \item  else if S5 is the best score, then split C1; cobweb(Node, Instance)\\
+    end;
+    \end{itemize}

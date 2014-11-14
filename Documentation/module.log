@@ -1,0 +1,1127 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.2.8)  7 NOV 2014 10:23
+entering extended mode
+**module.tex
+
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\module.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+\@input{TAILS-article-customization.aux}
+
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\TAILS-article-customization.tex"
+("e:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("e:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("e:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("e:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("e:\Program Files\MiKTeX 2.9\tex\latex\preprint\fullpage.sty"
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip46
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("e:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("e:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\floatrow\floatrow.sty"
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+)
+\c@float@type=\count100
+\float@exts=\toks22
+\float@box=\box28
+\@floatcapt=\box29
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+\FR@everyfloat=\toks23
+\flrow@foot=\insert233
+\FB@wd=\dimen121
+\FBo@wd=\dimen122
+\FBc@wd=\dimen123
+\FBo@ht=\skip47
+\FBc@ht=\skip48
+\FBf@ht=\skip49
+\FBo@max=\skip50
+\FBc@max=\skip51
+\FBf@max=\skip52
+\c@FBl@b=\count101
+\floatbox@depth=\count102
+\c@FRobj=\count103
+\c@FRsobj=\count104
+\Xhsize=\skip53
+\sXhsize=\skip54
+\Zhsize=\skip55
+\sZhsize=\skip56
+\flrow@rowbox=\box30
+\FR@Zunitlength=\dimen124
+\c@FBcnt=\count105
+\FPOScnt=\count106
+\LTleft=\skip57
+\LTright=\skip58
+\LTleft=\skip59
+\LTright=\skip60
+\flrow@types=\toks24
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks25
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2012/08/31 v0.4t Insert pages of external PDF documents (AM)
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count107
+\calc@Bcount=\count108
+\calc@Adimen=\dimen125
+\calc@Bdimen=\dimen126
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count109
+\calc@Cskip=\skip63
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+("e:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+("e:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+("e:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+("e:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2012/08/31 v0.4t Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box31
+\AM@toc@title=\toks26
+\c@AM@survey=\count110
+\AM@templatesizebox=\box32
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen127
+\lightrulewidth=\dimen128
+\cmidrulewidth=\dimen129
+\belowrulesep=\dimen130
+\belowbottomsep=\dimen131
+\aboverulesep=\dimen132
+\abovetopsep=\dimen133
+\cmidrulesep=\dimen134
+\cmidrulekern=\dimen135
+\defaultaddspace=\dimen136
+\@cmidla=\count111
+\@cmidlb=\count112
+\@aboverulesep=\dimen137
+\@belowrulesep=\dimen138
+\@thisruleclass=\count113
+\@lastruleclass=\count114
+\@thisrulewidth=\dimen139
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen140
+\extrarowheight=\dimen141
+\NC@list=\toks27
+\extratabsurround=\skip64
+\backup@length=\skip65
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\paralist\paralist.sty"
+Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
+\pltopsep=\skip66
+\plpartopsep=\skip67
+\plitemsep=\skip68
+\plparsep=\skip69
+\pl@lab=\toks28
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks29
+\verbatim@line=\toks30
+\verbatim@in@stream=\read1
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+\c@ContinuedFloat=\count115
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+)
+\c@KVtest=\count116
+\sf@farskip=\skip70
+\sf@captopadj=\dimen142
+\sf@capskip=\skip71
+\sf@nearskip=\skip72
+\c@subfigure=\count117
+\c@subfigure@save=\count118
+\c@lofdepth=\count119
+\c@subtable=\count120
+\c@subtable@save=\count121
+\c@lotdepth=\count122
+\sf@top=\skip73
+\sf@bottom=\skip74
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip75
+\f@ncyO@elh=\skip76
+\f@ncyO@erh=\skip77
+\f@ncyO@olh=\skip78
+\f@ncyO@orh=\skip79
+\f@ncyO@elf=\skip80
+\f@ncyO@erf=\skip81
+\f@ncyO@olf=\skip82
+\f@ncyO@orf=\skip83
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\sectsty\sectsty.sty"
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+("e:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
+
+
+Package tocbibind Note: Using section or other style headings.
+
+) ("e:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 44.
+\cftparskip=\skip84
+\cftbeforetoctitleskip=\skip85
+\cftaftertoctitleskip=\skip86
+\cftbeforepartskip=\skip87
+\cftpartnumwidth=\skip88
+\cftpartindent=\skip89
+\cftbeforesecskip=\skip90
+\cftsecindent=\skip91
+\cftsecnumwidth=\skip92
+\cftbeforesubsecskip=\skip93
+\cftsubsecindent=\skip94
+\cftsubsecnumwidth=\skip95
+\cftbeforesubsubsecskip=\skip96
+\cftsubsubsecindent=\skip97
+\cftsubsubsecnumwidth=\skip98
+\cftbeforeparaskip=\skip99
+\cftparaindent=\skip100
+\cftparanumwidth=\skip101
+\cftbeforesubparaskip=\skip102
+\cftsubparaindent=\skip103
+\cftsubparanumwidth=\skip104
+\cftbeforeloftitleskip=\skip105
+\cftafterloftitleskip=\skip106
+\cftbeforefigskip=\skip107
+\cftfigindent=\skip108
+\cftfignumwidth=\skip109
+\cftbeforelottitleskip=\skip110
+\cftafterlottitleskip=\skip111
+\cftbeforetabskip=\skip112
+\cfttabindent=\skip113
+\cfttabnumwidth=\skip114
+\cftbeforesubfigskip=\skip115
+\cftsubfigindent=\skip116
+\cftsubfignumwidth=\skip117
+\cftbeforesubtabskip=\skip118
+\cftsubtabindent=\skip119
+\cftsubtabnumwidth=\skip120
+))
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\module.aux"
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\cover-page-module.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\1-the-idea.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\2-applications.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\3-input-process-output.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\4-design.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\5-implementation-specific-HINTs.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\6-test-suite-and-drivers.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\7-experiments.aux"
+
+LaTeX Warning: Label `eq:cu' multiply defined.
+
+)
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\8-source-code.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\10-solutions.aux"))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+("e:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count123
+\scratchdimen=\dimen143
+\scratchbox=\box33
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen144
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks32
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ ("e:\Program Files\MiKTeX 2.9\tex\latex\floatrow\fr-subfig.sty"
+Package: fr-subfig 2007/12/24 v0.1g (beta) floatrow: additions for subfig
+\FBsc@max=\skip121
+\FBso@max=\skip122
+)
+\AtBeginShipoutBox=\box34
+
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\cover-page-module.tex"
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+
+("e:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)) [1
+
+
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\1-the-idea.tex" [2
+
+
+]
+<../images/clustering.jpg, id=13, 454.69875pt x 146.10585pt>
+File: ../images/clustering.jpg Graphic file (type jpg)
+
+<use ../images/clustering.jpg>
+Package pdftex.def Info: ../images/clustering.jpg used on input line 29.
+(pdftex.def)             Requested size: 300.0pt x 96.39894pt.
+ [3 <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_clu
+stering20140421_modifying/images/clustering.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 52.
+("e:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
+ [4] [5]
+Overfull \hbox (14.43024pt too wide) detected at line 128
+[] [] \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A[] \OT1/cmr/m/n/12 =
+ \OML/cmm/m/it/12 V[]\OT1/cmr/m/n/12 )[] = ([])[] + ([])[] + ([])[] + ([])[] + 
+([])[] = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9380
+ []
+
+
+Overfull \hbox (35.2462pt too wide) detected at line 218
+ [] 
+ []
+
+[6] <../images/animaltree.jpg, id=33, 360.02505pt x 303.534pt>
+File: ../images/animaltree.jpg Graphic file (type jpg)
+
+<use ../images/animaltree.jpg>
+Package pdftex.def Info: ../images/animaltree.jpg used on input line 250.
+(pdftex.def)             Requested size: 200.0pt x 168.62082pt.
+
+<../images/animaltree_create.jpg, id=34, 532.389pt x 375.804pt>
+File: ../images/animaltree_create.jpg Graphic file (type jpg)
+
+<use ../images/animaltree_create.jpg>
+Package pdftex.def Info: ../images/animaltree_create.jpg used on input line 258
+.
+(pdftex.def)             Requested size: 300.0pt x 211.76768pt.
+ [7]
+<../images/animaltree_add.jpg, id=40, 565.4726pt x 525.5635pt>
+File: ../images/animaltree_add.jpg Graphic file (type jpg)
+
+<use ../images/animaltree_add.jpg>
+Package pdftex.def Info: ../images/animaltree_add.jpg used on input line 266.
+(pdftex.def)             Requested size: 300.0pt x 278.828pt.
+ [8 <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_clu
+stering20140421_modifying/images/animaltree.jpg> <G:/LMU/TAILS_LMU/4.Conceptual
+ Clustering Module-20140-03-03/conceptual_clustering20140421_modifying/images/a
+nimaltree_create.jpg>]
+<../images/animaltree_merge.jpg, id=44, 562.4212pt x 651.233pt>
+File: ../images/animaltree_merge.jpg Graphic file (type jpg)
+
+<use ../images/animaltree_merge.jpg>
+Package pdftex.def Info: ../images/animaltree_merge.jpg used on input line 276.
+
+(pdftex.def)             Requested size: 300.0pt x 347.37773pt.
+
+<../images/split.jpg, id=45, 276.5532pt x 188.3838pt>
+File: ../images/split.jpg Graphic file (type jpg)
+
+<use ../images/split.jpg>
+Package pdftex.def Info: ../images/split.jpg used on input line 285.
+(pdftex.def)             Requested size: 200.0pt x 136.23698pt.
+ [9 <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_clu
+stering20140421_modifying/images/animaltree_add.jpg>]
+[10 <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_clu
+stering20140421_modifying/images/animaltree_merge.jpg> <G:/LMU/TAILS_LMU/4.Conc
+eptual Clustering Module-20140-03-03/conceptual_clustering20140421_modifying/im
+ages/split.jpg>]) [11]
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\2-applications.tex"
+<../images/app1.jpg, id=55, 510.708pt x 244.2726pt>
+File: ../images/app1.jpg Graphic file (type jpg)
+ <use ../images/app1.jpg>
+Package pdftex.def Info: ../images/app1.jpg used on input line 12.
+(pdftex.def)             Requested size: 300.0pt x 143.4934pt.
+
+<../images/app2.jpg, id=56, 852.93657pt x 412.54124pt>
+File: ../images/app2.jpg Graphic file (type jpg)
+
+<use ../images/app2.jpg>
+Package pdftex.def Info: ../images/app2.jpg used on input line 20.
+(pdftex.def)             Requested size: 400.0pt x 193.47266pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [12
+
+
+ <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_cluste
+ring20140421_modifying/images/app1.jpg>] [13 <G:/LMU/TAILS_LMU/4.Conceptual Clu
+stering Module-20140-03-03/conceptual_clustering20140421_modifying/images/app2.
+jpg>]
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\3-input-process-output.tex"
+<../images/interface1.jpg, id=64, 542.025pt x 435.87843pt>
+File: ../images/interface1.jpg Graphic file (type jpg)
+
+<use ../images/interface1.jpg>
+Package pdftex.def Info: ../images/interface1.jpg used on input line 13.
+(pdftex.def)             Requested size: 300.0pt x 241.25694pt.
+
+<../images/interface2.jpg, id=65, 547.2947pt x 386.94562pt>
+File: ../images/interface2.jpg Graphic file (type jpg)
+
+<use ../images/interface2.jpg>
+Package pdftex.def Info: ../images/interface2.jpg used on input line 21.
+(pdftex.def)             Requested size: 300.0pt x 212.10632pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14
+
+
+ <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_cluste
+ring20140421_modifying/images/interface1.jpg>]
+<../images/interface2_loadfile.jpg, id=69, 543.53062pt x 383.18156pt>
+File: ../images/interface2_loadfile.jpg Graphic file (type jpg)
+
+<use ../images/interface2_loadfile.jpg>
+Package pdftex.def Info: ../images/interface2_loadfile.jpg used on input line 3
+6.
+(pdftex.def)             Requested size: 300.0pt x 211.50475pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_clu
+stering20140421_modifying/images/interface2.jpg>]
+<../images/interface3.jpg, id=73, 538.26094pt x 470.50781pt>
+File: ../images/interface3.jpg Graphic file (type jpg)
+
+<use ../images/interface3.jpg>
+Package pdftex.def Info: ../images/interface3.jpg used on input line 53.
+(pdftex.def)             Requested size: 300.0pt x 262.24054pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (98.98723pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/12 one. In the ex-am-ple shown in Fig-ure 12[], we copied ``blue,s
+mall,circle!large,square,red!yellow,medium,green!''from
+ []
+
+[16 <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_clu
+stering20140421_modifying/images/interface2_loadfile.jpg>]
+<../images/inputseq1.jpg, id=77, 3062.44125pt x 4300.81781pt>
+File: ../images/inputseq1.jpg Graphic file (type jpg)
+
+<use ../images/inputseq1.jpg>
+Package pdftex.def Info: ../images/inputseq1.jpg used on input line 85.
+(pdftex.def)             Requested size: 420.0pt x 589.8385pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../images/inputseq2.jpg, id=78, 479.75235pt x 695.35785pt>
+File: ../images/inputseq2.jpg Graphic file (type jpg)
+
+<use ../images/inputseq2.jpg>
+Package pdftex.def Info: ../images/inputseq2.jpg used on input line 93.
+(pdftex.def)             Requested size: 420.0pt x 608.74432pt.
+
+
+LaTeX Warning: Float too large for page by 12.8143pt on input line 96.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../images/inputseq3.jpg, id=79, 488.5452pt x 691.02165pt>
+File: ../images/inputseq3.jpg Graphic file (type jpg)
+
+<use ../images/inputseq3.jpg>
+Package pdftex.def Info: ../images/inputseq3.jpg used on input line 101.
+(pdftex.def)             Requested size: 420.0pt x 594.07724pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [17 <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_c
+lustering20140421_modifying/images/interface3.jpg>] [18 <G:/LMU/TAILS_LMU/4.Con
+ceptual Clustering Module-20140-03-03/conceptual_clustering20140421_modifying/i
+mages/inputseq1.jpg>] [19 <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-2014
+0-03-03/conceptual_clustering20140421_modifying/images/inputseq2.jpg>] [20 <G:/
+LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_clustering2
+0140421_modifying/images/inputseq3.jpg>]
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\4-design.tex"
+<../images/class_diagram_for_Conceptual_Clustering.jpg, id=93, 815.29594pt x 70
+3.87968pt>
+File: ../images/class_diagram_for_Conceptual_Clustering.jpg Graphic file (type 
+jpg)
+ <use ../images/class_diagram_for_Conceptual_Clustering.jpg>
+Package pdftex.def Info: ../images/class_diagram_for_Conceptual_Clustering.jpg 
+used on input line 14.
+(pdftex.def)             Requested size: 400.0pt x 345.33368pt.
+
+<../images/sequence_diagram_for_Conceptual_clustering.jpg, id=94, 1746.525pt x 
+542.77782pt>
+File: ../images/sequence_diagram_for_Conceptual_clustering.jpg Graphic file (ty
+pe jpg)
+ <use ../images/sequence_diagram_for_Conceptual_clustering.jpg>
+Package pdftex.def Info: ../images/sequence_diagram_for_Conceptual_clustering.j
+pg used on input line 23.
+(pdftex.def)             Requested size: 400.0pt x 124.30621pt.
+
+[21
+
+
+ <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_cluste
+ring20140421_modifying/images/class_diagram_for_Conceptual_Clustering.jpg>]) [2
+2 <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_clust
+ering20140421_modifying/images/sequence_diagram_for_Conceptual_clustering.jpg>]
+
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\5-implementation-specific-HINTs.tex"
+[23
+
+
+] [24]
+Overfull \hbox (8.66307pt too wide) in paragraph at lines 83--84
+[]\OT1/cmr/m/it/12 drawRepresenataion \OT1/cmr/m/n/12 calls \OT1/cmr/m/it/12 dr
+aw-Cir-cle()\OT1/cmr/m/n/12 , \OT1/cmr/m/it/12 drawRect-an-gle()\OT1/cmr/m/n/12
+ , \OT1/cmr/m/it/12 draw-Tri-an-gle() \OT1/cmr/m/n/12 and \OT1/cmr/m/it/12 draw
+Square()\OT1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+) [26]
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\6-test-suite-and-drivers.tex"
+Overfull \hbox (9.70528pt too wide) in paragraph at lines 18--20
+\OT1/cmr/m/n/12 square,small,green!square,small,green!square,small,green!square
+,small,green!square,small,blue! 
+ []
+
+<../images/testsuite.jpg, id=114, 578.16pt x 260.47313pt>
+File: ../images/testsuite.jpg Graphic file (type jpg)
+
+<use ../images/testsuite.jpg>
+Package pdftex.def Info: ../images/testsuite.jpg used on input line 24.
+(pdftex.def)             Requested size: 300.0pt x 135.15666pt.
+) [27
+
+
+ <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_cluste
+ring20140421_modifying/images/testsuite.jpg>]
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\7-experiments.tex" [28
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 53--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--70
+
+ []
+
+[29]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 110.
+
+
+[30]) [31]
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\8-source-code.tex") [32
+
+
+]
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\10-solutions.tex"
+<../images/experiment1_seq1_9.jpg, id=135, 397.485pt x 105.39375pt>
+File: ../images/experiment1_seq1_9.jpg Graphic file (type jpg)
+
+<use ../images/experiment1_seq1_9.jpg>
+Package pdftex.def Info: ../images/experiment1_seq1_9.jpg used on input line 6.
+
+(pdftex.def)             Requested size: 300.0pt x 79.54846pt.
+
+<../images/experiment1_seq2_9.jpg, id=136, 350.81062pt x 91.84312pt>
+File: ../images/experiment1_seq2_9.jpg Graphic file (type jpg)
+
+<use ../images/experiment1_seq2_9.jpg>
+Package pdftex.def Info: ../images/experiment1_seq2_9.jpg used on input line 13
+.
+(pdftex.def)             Requested size: 300.0pt x 78.54628pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--26
+
+ []
+
+[33
+
+
+ <G:/LMU/TAILS_LMU/4.Conceptual Clustering Module-20140-03-03/conceptual_cluste
+ring20140421_modifying/images/experiment1_seq1_9.jpg> <G:/LMU/TAILS_LMU/4.Conce
+ptual Clustering Module-20140-03-03/conceptual_clustering20140421_modifying/ima
+ges/experiment1_seq2_9.jpg>] [34]
+Overfull \hbox (22.83473pt too wide) in paragraph at lines 84--85
+\OT1/cmr/m/it/12 global[]backup[]text1 \OT1/cmr/m/n/12 is up-dated, its pre-vi-
+ous string will be passed to the vari-able \OT1/cmr/m/it/12 global[]backup[]tex
+t2
+ []
+
+[35]) [36]
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\module.bbl"
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+$\OT1/cmtt/m/n/12 stanford . edu / MainFolder / VideoPage . php ? course = Mach
+ineLearning&video = 01 .$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+[]\OT1/cmr/m/n/12 ``Conceptual clus-ter-ing,'' "$\OT1/cmtt/m/n/12 http : / / en
+ . wikipedia . org / wiki / Conceptual _$
+ []
+
+) [37
+
+]
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\module.aux"
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\cover-page-module.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\1-the-idea.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\2-applications.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\3-input-process-output.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\4-design.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\5-implementation-specific-HINTs.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\6-test-suite-and-drivers.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\7-experiments.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\8-source-code.aux")
+("G:\LMU\TAILS_LMU\4.Conceptual Clustering Module-20140-03-03\conceptual_cluste
+ring20140421_modifying\Documentation\10-solutions.aux"))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6372 strings out of 493921
+ 99805 string characters out of 3147286
+ 173889 words of memory out of 3000000
+ 9465 multiletter control sequences out of 15000+200000
+ 15608 words of font info for 59 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 41i,14n,51p,1345b,488s stack positions out of 5000i,500n,10000p,200000b,50000s
+<e:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><e:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><e:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><e:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><e:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><e:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><e:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb><e:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr8.pfb><e:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss1
+2.pfb><e:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><e
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><e:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><e:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><e:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on module.pdf (37 pages, 21280144 bytes).
+PDF statistics:
+ 199 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+
